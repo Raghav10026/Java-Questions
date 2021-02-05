@@ -19,6 +19,7 @@ public class PatternNinth {
 				System.out.print("* ");
 			System.out.println();
 			row=row+1;
+			
 			nst=nst+2;
 			nsp=nsp-1;
 		}
