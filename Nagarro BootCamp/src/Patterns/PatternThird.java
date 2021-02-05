@@ -1,3 +1,9 @@
+//// Pattern third: *****
+//                  ****
+//                  ***
+//                  **
+//                  *
+
 package Patterns;
 
 import java.util.Scanner;
