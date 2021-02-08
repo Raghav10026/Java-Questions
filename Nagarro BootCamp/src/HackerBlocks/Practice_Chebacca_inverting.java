@@ -16,6 +16,7 @@ public class Practice_Chebacca_inverting {
 				if(rem==9 && (rem%10)==0) {
 					//do nothing, leave the no as it is
 				}
+				
 				else
 					rem=9-rem;
 			}
