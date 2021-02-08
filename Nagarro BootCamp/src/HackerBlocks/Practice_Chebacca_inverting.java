@@ -13,7 +13,7 @@ public class Practice_Chebacca_inverting {
 		while(n>0) {
 			rem=n%10;
 			if(rem>4) {
-				if(rem==9 && (rem%10)==0) {
+				if(rem==9 && (n/10)==0) {
 					//do nothing, leave the no as it is
 				}
 				
