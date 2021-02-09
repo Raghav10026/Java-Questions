@@ -14,10 +14,10 @@ public class PatternThirteen {
 		while (row <= x) {
 
 			for (int cst = 1; cst <= nst; cst++) {
-				System.out.print("*");
+				System.out.print("* ");
 			}
 			for (int csp = 1; csp <= nsp; csp++)
-				System.out.print(" ");
+				System.out.print("  ");
 
 			System.out.println();
 
