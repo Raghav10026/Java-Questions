@@ -21,8 +21,5 @@ public class PatternSixth {
 			nst=nst-1;
 			nsp=nsp+2;
 		}
-
-
 	}
-
 }
