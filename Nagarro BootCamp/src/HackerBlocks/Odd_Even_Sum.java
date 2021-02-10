@@ -6,6 +6,7 @@ public class Odd_Even_Sum {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		long n = sc.nextLong();
+		//boolean isOdd = (n % 2 == 1) ? true : false;
 		long rem = 0;
 		long rev = 0;
 
