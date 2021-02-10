@@ -1,4 +1,4 @@
-package HackerBlocks;
+package HackerblockPractise;
 
 import java.util.Scanner;
 
