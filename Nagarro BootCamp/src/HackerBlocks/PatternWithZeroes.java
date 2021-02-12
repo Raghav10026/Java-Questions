@@ -1,8 +1,13 @@
 package HackerBlocks;
 
+import java.util.Scanner;
+
 public class PatternWithZeroes {
 
-			public static void pattern(int n){
+	public static void main(String[] args){
+	    Scanner sc=new Scanner(System.in);
+	    int n=sc.nextInt();
+
 
 		        int rows = 1;
 		        int nst = 1;
