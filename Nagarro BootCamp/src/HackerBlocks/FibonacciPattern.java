@@ -8,8 +8,9 @@ public class FibonacciPattern {
 	int nst = 1;
     int rows = 1;
     int firstFibo = 0;
-    int secondFibo = 1;
-    while(rows <= n){
+    int secondFibo = 1;{
+    while(rows <= n)
+    {
 
 
         int cst = 1;
@@ -26,4 +27,4 @@ public class FibonacciPattern {
         nst++;
         System.out.println();
     }
-}
+}}
