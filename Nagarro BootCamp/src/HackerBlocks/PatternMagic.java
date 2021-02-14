@@ -12,17 +12,17 @@ public class PatternMagic {
 		int count = 2 * n - 1;
 		while (row <= count) {
 			for (int cst = 1; cst <= nst; cst++) {
-				System.out.print("*");
+				System.out.print("* ");
 			}
 			for (int csp = 1; csp <= nsp; csp++) {
-				System.out.print(" ");
+				System.out.print("  ");
 			}
 			int cst = 1;
 			if (row == 1 || row == count) {
 				cst = 2;
 			}
 			for (; cst <= nst; cst++) {
-				System.out.print("*");
+				System.out.print("* ");
 			}
 			System.out.println();
 			if (row <= count/2) {
