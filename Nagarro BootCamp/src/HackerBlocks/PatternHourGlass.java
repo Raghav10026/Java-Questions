@@ -15,8 +15,12 @@ public class PatternHourGlass {
 			if (row > n + 1) {
 				val = count;
 				count++;
+<<<<<<< HEAD
 			} 
 				else {
+=======
+			} else {
+>>>>>>> refs/remotes/origin/main
 				val = n - row + 1;
 			}
 			for (int csp = 1; csp <= nsp; csp++) {
