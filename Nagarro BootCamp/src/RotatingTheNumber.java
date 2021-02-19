@@ -4,21 +4,21 @@ import java.util.Scanner;
 public class RotatingTheNumber {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		int number=sc.nextInt();
-		int not=sc.nextInt();
-		int ans=0;
-		int rem=0;
-		while(number != 0) {
-			for(int i=1;i<=not;i++) {
-				rem=number%10;
-				ans=rem*10+number;
-				number=number/10;
-			}
-			System.out.println(ans);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number you want to ROTATE: ");
+		int number = sc.nextInt();
+		System.out.println("How many times you want to rotate this number: ");
+		int not = sc.nextInt();
+		int temp=number;
+		int nod=0;
+		while (temp != 0) {
+			nod = nod + 1;
+			temp = temp / 10;
 		}
-		
+				int rem = number % (int)Math.pow(10, not);
+				int ans = rem * (int)Math.pow(10, nod-not) + number;
+				number = number / (int)Math.pow(10, not);
+				System.out.println(ans);
+			}
 
 	}
-
-}
