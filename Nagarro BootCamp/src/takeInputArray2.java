@@ -21,6 +21,6 @@ public class takeInputArray2 {
 
 	public static void display(int[] arr) {
 		for (int val : arr)
-			System.out.print(val);
+			System.out.println(val);
 	}
 }
