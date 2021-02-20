@@ -6,13 +6,14 @@ public class ReversingArrays {
 	static Scanner sc=new Scanner(System.in);
 	public static void main(String[] args) {
 		int[] arr=userInput();
-		int[] l=reverse(arr);
-		System.out.println(l);
+		reverse(arr);
+		display(arr);
 	}
 	public static int[] userInput() {
 		int n=sc.nextInt();
 		int[] arr=new int[n];
 		for(int i=0;i<arr.length;i++) {
+			System.out.print("arr["+i+"]: ");
 			arr[i]=sc.nextInt();
 			
 		}
@@ -28,6 +29,10 @@ public class ReversingArrays {
 		low++;
 		high--;
 	}
+	}
+	public static void display(int[] arr) {
+		for(int val:arr)
+			System.out.print(val+" ");
 	}
 	
 
