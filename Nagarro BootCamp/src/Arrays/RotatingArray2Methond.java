@@ -6,43 +6,59 @@ public class RotatingArray2Methond {
 	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		int[] arr = userInput();
 		
+		int[] arr = userInput();
+		System.out.println("How many rots? ");
 		int rot = sc.nextInt();
 		rotation(arr, rot);
 		display(arr);
 	}
 
 	public static int[] userInput() {
+		System.out.println("how many: ");
 		int n = sc.nextInt();
 		int[] arr = new int[n];
 		for (int i = 0; i < arr.length; i++) {
+			System.out.println("arr[" + i + "] ?");
 			arr[i] = sc.nextInt();
 		}
 		return arr;
 	}
 
-	public static void rotation(int[] arr, int rot) {
-		rot = rot % arr.length;
-
-		for (int r = 1; r <= rot; r = r + 1) {
-
-			// single rotation
-			int temp = arr[arr.length - 1];
-
-			for (int j = arr.length - 1; j >= 1; j = j - 1)
-				arr[j] = arr[j - 1];
-
-			arr[0] = temp;
-
+	public static void reverse(int[] arr) {
+		int low = 0;
+		int high = arr.length - 1;
+		while (low < high) {
+			int temp = arr[low];
+			arr[low] = arr[high];
+			arr[high] = temp;
+			low++;
+			high--;
 		}
 
+	}
+
+	public static void reverse(int[] arr, int si, int ei) {
+		int low = si;
+		int high = ei;
+		while (low < high) {
+			int temp = arr[low];
+			arr[low] = arr[high];
+			arr[high] = temp;
+			low++;
+			high--;
+		}
+
+	}
+
+	public static void rotation(int[] arr, int rot) {
+		reverse(arr, 0, arr.length - rot - 1);
+		reverse(arr, arr.length - rot, arr.length - 1);
+		reverse(arr);
 	}
 
 	public static void display(int[] arr) {
 		for (int val : arr)
 			System.out.print(val);
-		System.out.println();
 	}
-
 }
