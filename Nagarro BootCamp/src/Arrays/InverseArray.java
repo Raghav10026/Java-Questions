@@ -15,7 +15,6 @@ public class InverseArray {
 	}
 
 	public static int[] userInput() {
-		System.out.println("size? ");
 		int n = sc.nextInt();
 		int[] arr = new int[n];
 		for (int i = 0; i < arr.length; i++) {
