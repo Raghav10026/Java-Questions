@@ -7,6 +7,7 @@ public class RotatingArray {
 
 	public static void main(String[] args) {
 		int[] arr = userInput();
+		System.out.println("no. of rot: ");
 		
 		int rot = sc.nextInt();
 		rotation(arr, rot);
@@ -14,6 +15,7 @@ public class RotatingArray {
 	}
 
 	public static int[] userInput() {
+		System.out.println("size? ");
 		int n = sc.nextInt();
 		int[] arr = new int[n];
 		for (int i = 0; i < arr.length; i++) {
