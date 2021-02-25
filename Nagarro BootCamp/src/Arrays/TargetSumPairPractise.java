@@ -25,16 +25,16 @@ public class TargetSumPairPractise {
 		Arrays.sort(arr);
 		int si = 0;
 		int ei = arr.length - 1;
-		while(si<ei) {
+		while(si<=ei) {
 			if(arr[si]+arr[ei]<target)
 				si++;
 			else if(arr[si]+arr[ei]>target) 
 				ei--;
-			else
-				System.out.println(arr[si]+" "+arr[ei]);
+			else {
+				System.out.println(arr[si]+" and "+arr[ei]);
 			si++;
 			ei--;
-		}
+		}}
 	}
 
 }
