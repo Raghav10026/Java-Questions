@@ -13,8 +13,8 @@ public class Demo {
 		//System.out.println(arr);
 		//System.out.println(arr.length); //number of rows.
 		System.out.println(arr[0].length); //number of columns. 
-		 //updating values at 4th columns and 2nd row.
-<<<<<<< HEAD
+		 //updating values at xth columns and ynd row.
+
 		arr[3][0]=69;
 		arr[1][3]=68;
 		System.out.println();
@@ -31,18 +31,7 @@ public class Demo {
 //		int z=arr[1][j];
 //		for(int val:z)
 //			System.out.println(val);
-	
 		
-=======
-		arr[3][3]=69;
-		System.out.println(arr[3][3]);
-		// printing last row from array
-		int i=arr.length-1;
-		int[] a=arr[i];
-		for(int val:a)
-			System.out.println(val);
-		System.out.println();
->>>>>>> refs/remotes/origin/main
 		
 		//Printing whole 2D array
 		for(int r=0;r<arr.length;r++) {
