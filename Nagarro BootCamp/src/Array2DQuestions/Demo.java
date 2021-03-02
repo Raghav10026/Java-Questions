@@ -30,6 +30,7 @@ public class Demo {
 //		int z=arr[1][j];
 //		for(int val:z)
 //			System.out.println(val);
+	
 		
 		
 		//Printing whole 2D array
