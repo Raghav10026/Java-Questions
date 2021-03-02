@@ -52,7 +52,7 @@ public class MaximumSumPathInTwoArrays2 {
 	                i++;
 	                j++;
 	            }
-	        }
+        }
 	    }
 	 
 	    while (i < m)
