@@ -43,34 +43,34 @@ public class SpiralDisplay {
 
 			// first col
 			for (int r = minRow; r <= maxRow && count < nel; r++) {
-				System.out.print(arr[r][minCol] + " ");
+				System.out.print(arr[r][minCol] + ", ");
 				count++;
 			}
 			minCol++;
 
 			// last row
 			for (int c = minCol; c <= maxCol && count < nel; c++) {
-				System.out.print(arr[maxRow][c] + " ");
+				System.out.print(arr[maxRow][c] + ", ");
 				count++;
 			}
 			maxRow--;
 
 			// last col
 			for (int r = maxRow; r >= minRow && count < nel; r--) {
-				System.out.print(arr[r][maxCol] + " ");
+				System.out.print(arr[r][maxCol] + ", ");
 				count++;
 			}
 			maxCol--;
 
 			// first row
 			for (int c = maxCol; c >= minCol && count < nel; c--) {
-				System.out.print(arr[minRow][c] + " ");
+				System.out.print(arr[minRow][c] + ", ");
 				count++;
 			}
 			minRow++;
 		}
 
-		System.out.println();
+		System.out.println("END");
 
 	}
 
