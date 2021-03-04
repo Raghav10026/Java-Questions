@@ -1,3 +1,4 @@
+package BeginnerQuestionsJava;
 import java.util.Scanner;
 
 public class takeInputArray2 {
@@ -12,7 +13,7 @@ public class takeInputArray2 {
 		System.out.println("Tell the size of array? ");
 		int size = sc.nextInt();
 		int[] arr = new int[size];
-		for (int i = 0; i <= arr.length-1; i++) {
+		for (int i = 0; i <= arr.length - 1; i++) {
 			System.out.print("arr[" + i + "] ?");
 			arr[i] = sc.nextInt();
 		}

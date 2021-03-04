@@ -1,3 +1,4 @@
+package BeginnerQuestionsJava;
 import java.util.Scanner;
 
 public class ReplaceThemAll {
@@ -27,27 +28,23 @@ public class ReplaceThemAll {
 //            rev=rev/10;
 //        }
 //        System.out.println(rev2);
-		if(n == 0) {
-            System.out.println(5);
-            return;
-        }
-        long rem = 0, count = 1, ans = 0;
-        while (n> 0) {
-            rem = n % 10;
-            if (rem == 0) {
-                rem = 5;
-            }
-            ans = rem * count + ans;
+		if (n == 0) {
+			System.out.println(5);
+			return;
+		}
+		long rem = 0, count = 1, ans = 0;
+		while (n > 0) {
+			rem = n % 10;
+			if (rem == 0) {
+				rem = 5;
+			}
+			ans = rem * count + ans;
 
-            count = count * 10;
-            n = n / 10;
-        }
-        System.out.println(ans);
+			count = count * 10;
+			n = n / 10;
+		}
+		System.out.println(ans);
 
-    }
-    
+	}
 
-        }
-	
-		
-
+}

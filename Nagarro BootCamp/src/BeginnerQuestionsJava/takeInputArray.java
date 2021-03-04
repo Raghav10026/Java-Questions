@@ -1,3 +1,4 @@
+package BeginnerQuestionsJava;
 import java.util.Scanner;
 
 public class takeInputArray {
@@ -19,8 +20,9 @@ public class takeInputArray {
 		}
 		return arr;
 	}
+
 	public static void display(int[] arr) {
-		for(int val:arr)
-		System.out.println(val);
+		for (int val : arr)
+			System.out.println(val);
 	}
 }

@@ -1,3 +1,4 @@
+package BeginnerQuestionsJava;
 import java.util.Scanner;
 
 public class GCD {

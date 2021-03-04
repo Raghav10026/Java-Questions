@@ -1,3 +1,4 @@
+package BeginnerQuestionsJava;
 
 import java.util.Scanner;
 
@@ -9,7 +10,7 @@ public class Fibo {
 		int a = 0;
 		int b = 1;
 		for (int count = 0; count < n; count++) {
-			
+
 			int sum = a + b;
 			a = b;
 			b = sum;
