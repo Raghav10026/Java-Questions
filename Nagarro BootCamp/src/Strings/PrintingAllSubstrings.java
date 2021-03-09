@@ -10,7 +10,7 @@ public class PrintingAllSubstrings {
 		substring(str);
 		substrings(str);
 	}
-
+	
 	public static void substring(String str) {
 		for (int si = 0; si < str.length(); si++) {
 			for (int ei = si; ei < str.length(); ei++) {
@@ -21,7 +21,6 @@ public class PrintingAllSubstrings {
 			}
 		}
 	}
-
 	public static void substrings(String str) {
 
 		for (int si = 0; si < str.length(); si++) {
