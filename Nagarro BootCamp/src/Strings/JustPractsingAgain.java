@@ -21,6 +21,7 @@ public class JustPractsingAgain {
 				System.out.println(ss);
 			}
 		}
+		
 	}
 
 }
