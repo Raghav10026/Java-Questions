@@ -32,6 +32,5 @@ public class Fibonacci {
 		int fnm2=fiboRecursion(n-2);
 		int fn=fnm1+fnm2;
 		return fn;
-		
 	}
 }
