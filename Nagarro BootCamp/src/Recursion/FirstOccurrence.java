@@ -18,7 +18,8 @@ public class FirstOccurrence {
 		if(arr[vidx]==item) {
 			return vidx;
 		}
-		return(firstOccur(arr,item,vidx+1));
+
+		return firstOccur(arr,item,vidx+1);
 		
 	}
 
