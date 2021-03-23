@@ -1,6 +1,7 @@
 package ArrayList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Intersection {
@@ -9,12 +10,14 @@ public class Intersection {
 	public static void main(String[] args) {
 
 		int n = sc.nextInt();
-		int m = sc.nextInt();
+		//int m = sc.nextInt();
 		int[] one = new int[n];
 		takeInput(one);
-		int[] two = new int[m];
+		Arrays.sort(one);
+		int[] two = new int[n];
 		takeInput(two);
-		display(one, two);
+		Arrays.sort(two);
+		//display(one, two);
 		System.out.println(intersection(one,two));
 		
 
