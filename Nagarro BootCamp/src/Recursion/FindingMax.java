@@ -11,7 +11,8 @@ public class FindingMax {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = sc.nextInt();
 		}
-		System.out.println(max(arr,0));
+		//System.out.println(max(arr,0));
+		System.out.println(maxS(arr));
 
 	}
 	public static int max(int[] arr, int vidx) {
@@ -24,6 +25,15 @@ public class FindingMax {
 		return bp;
 		
 		
+	}
+	public static int maxS(int[] arr) {
+		int max=Integer.MIN_VALUE;
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i]>max) {
+				max=arr[i];
+			}
+		}
+		return max;
 	}
 
 }
