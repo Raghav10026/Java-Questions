@@ -9,12 +9,16 @@ public class SubsequenceASCII {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
 		subsASCII(str, "");
+		System.out.println();
+        System.out.println(str.length());
+        
+        
 
 	}
 
 	public static void subsASCII(String ques, String ans) {
 		if (ques.length() == 0) {
-			System.out.println(ans);
+			System.out.print(ans+" ");
 			return;
 		}
 		char ch = ques.charAt(0);
@@ -24,4 +28,5 @@ public class SubsequenceASCII {
 		subsASCII(roq, ans + ch);
 		subsASCII(roq, ans + (int) ch);
 	}
+	
 }
