@@ -9,8 +9,9 @@ public class SubsequenceASCII {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();
 		subsASCII(str, "");
-		System.out.println();
-        System.out.println(str.length());
+		int r=count(str);
+        System.out.println();
+        System.out.print(r);
         
         
 
@@ -28,5 +29,16 @@ public class SubsequenceASCII {
 		subsASCII(roq, ans + ch);
 		subsASCII(roq, ans + (int) ch);
 	}
+	public static int count(String str){
+        if (str.length() == 0) {
+			return 1;
+		}
+		int x = 0;
+		String r = str.substring(1);
+		x += count(r);
+		x += count(r);
+        x+=count(r);
+		return x;
+    }
 	
 }
