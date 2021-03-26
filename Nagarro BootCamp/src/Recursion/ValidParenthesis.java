@@ -12,12 +12,13 @@ public class ValidParenthesis {
 		validParenthesis(n, 0, 0, "");
 
 	}
+	static int count;
 
 	public static void validParenthesis(int n, int open, int close, String ans) {
 
 		// +ve base case, getting answer because of this base case
 		if (n == open && n == close) { // always should be equal to n, both open and closing backet
-			System.out.println(ans);
+			System.out.println(++count+".\t"+ ans);
 			return;
 		}
 		// -ve base case, condition where we are not getting desired ouptut like
