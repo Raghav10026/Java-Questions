@@ -23,7 +23,7 @@ public class ClimbingStairs {
 			return;
 		}
 
-		for (int step = 1; step <= 5; step++)
+		for (int step = 1; step <= 3; step++)
 			CS(curr + step, n, ans + step);
 
 		}
