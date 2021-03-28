@@ -28,4 +28,5 @@ public class CoinToss2 {
 		}
 	}
 
+	
 }
