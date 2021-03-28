@@ -27,6 +27,7 @@ public class CoinToss2 {
 		
 			
 		}
+		a
 	}
 	
 }
