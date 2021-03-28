@@ -24,9 +24,8 @@ public class CoinToss2 {
 		} else {
 			consecutiveHeads(n - 1, ans + "T", false);
 			consecutiveHeads(n - 1, ans + "H", true);
-		
-			
+
 		}
 	}
-	
+
 }
