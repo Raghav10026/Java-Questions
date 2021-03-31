@@ -3,7 +3,6 @@ package loops;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
 public class error {
 
 	public static void main(String[] args) {
@@ -20,10 +19,7 @@ public class error {
 			}
 			n++;
 
-			
 		}
-		
-		
 
 	}
 
