@@ -17,9 +17,11 @@ public class error {
 				System.out.println(ele);
 				n++;
 			}
-			
-			n++;
 
+			n++;
+			
+
+			
 		}
 
 	}
