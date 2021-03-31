@@ -19,9 +19,7 @@ public class error {
 			}
 
 			n++;
-			
 
-			
 		}
 
 	}
